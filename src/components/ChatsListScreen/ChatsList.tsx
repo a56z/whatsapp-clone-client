@@ -59,7 +59,7 @@ const MessageDate = styled.div`
 const ChatsList = () => (
   <Container>
     <StyledList>
-        {chats.map(chat => (
+      {chats.map(chat => (
         <StyledListItem key={chat.id} button>
           <ChatPicture src={chat.picture} alt="Profile" />
           <ChatInfo>
